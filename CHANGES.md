@@ -1,5 +1,9 @@
 # Change Log
 
+# 0.5.1
+
+- Add action `get_jenkins_last_parameters`
+
 # 0.5.0
 
 - Add rebuild last Jenkins job. Add list Jenkins jobs by regex

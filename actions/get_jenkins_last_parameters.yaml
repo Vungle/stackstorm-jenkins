@@ -1,0 +1,11 @@
+---
+name: "get_jenkins_last_parameters"
+runner_type: "python-script"
+description: "get last job parameters"
+enabled: true
+entry_point: "get_jenkins_last_parameters.py"
+parameters:
+  job_name:
+    type: "string"
+    description: "Name of the Jenkins job"
+    required: true
